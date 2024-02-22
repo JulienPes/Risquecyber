@@ -1,0 +1,95 @@
+.overlay{
+    margin: auto;
+}
+.flexx{
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    font-weight: bold;
+    color: #004aad;
+    font-size: 18px;
+}
+.flexx1{
+    font-size: 17px;
+    font-weight: bold;
+}
+.wid{
+    width: 50%;
+}
+.spacl{
+    line-height: 150%;
+    font-size: 40px;
+}
+.st{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.si{
+    font-size: 20px;
+}
+.flexxxx{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.lll{
+    font-weight: bold;
+}
+.sb{
+    justify-content: space-between;
+}
+.br{
+    border-radius: 2%;
+}
+.cen{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #004aad;
+    gap: 20px;
+}
+.butt{
+    margin-left: 40px;
+}
+.rad{
+    border-radius: 1.3%;
+}
+.textsm{
+    font-size: 13px;
+}
+.texh{
+    font-size: 40px;
+    line-height:120%;
+}
+@media screen and (max-width: 1024px) {
+    .non{
+        display: none;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .butt{
+        display: none;
+    }
+    .flexx{
+        justify-content: center;
+
+    }
+    .texh{
+        font-size: 24px;
+    }
+    .flexx{
+        display: none;
+    }
+    .flexxx{
+        display: none;
+    }
+    .flexxxx{
+        text-align: center;
+    }
+    .cen{
+        display: none;
+    }
+
+}
